@@ -2402,42 +2402,6 @@
         </div>
       </section>
 
-      <section class="section" id="voice-note">
-        <div class="section-inner">
-          <div class="section-header">
-            <div class="section-badge">🎙️ Voice Message</div>
-            <h2 class="section-title">Hear My <span>Heart</span></h2>
-            <p class="section-description">
-              A special voice message just for you 💕
-            </p>
-          </div>
-          <div style="display: flex; justify-content: center; align-items: center; min-height: 400px;">
-            <div class="letter-card" style="max-width: 500px; text-align: center;">
-              <div style="font-size: 4rem; margin-bottom: 30px; animation: float 3s ease-in-out infinite;">🎙️</div>
-              <h3 style="font-size: 1.5rem; margin-bottom: 20px; font-family: 'Playfair Display', serif;">My Voice My Love</h3>
-              <p style="color: var(--text-secondary); margin-bottom: 40px; font-size: 1.05rem;">Click below to listen to my voice message for you...</p>
-              <div style="background: linear-gradient(135deg, rgba(255, 75, 155, 0.15) 0%, rgba(102, 126, 234, 0.15) 100%); border-radius: 20px; padding: 40px; border: 2px solid rgba(255, 75, 155, 0.3); margin-bottom: 30px; backdrop-filter: blur(10px);">
-                <div style="font-size: 3rem; margin-bottom: 20px;">🎶</div>
-                <audio id="voiceNote" style="width: 100%; margin-bottom: 20px;">
-                  <source src="voice-note.mp3" type="audio/mpeg">
-                </audio>
-                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                  <button class="btn btn-primary" onclick="document.getElementById('voiceNote').play()">
-                    <span>▶️ Play</span>
-                  </button>
-                  <button class="btn btn-secondary" onclick="document.getElementById('voiceNote').pause()">
-                    <span>⏸️ Pause</span>
-                  </button>
-                </div>
-              </div>
-              <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              This message is just recorded for you with all my love and care💮
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section class="section" id="final">
         <div class="section-inner">
           <div class="section-header">
@@ -2840,7 +2804,6 @@
           "notes",
           "cake",
           "spotify",
-          "voice-note",
           "final",
         ];
         nav.innerHTML = sections

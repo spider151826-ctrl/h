@@ -1725,6 +1725,7 @@
         }
       }
     </style>
+    <script defer src="https://cdn.vercel.com/analytics.js"></script>
   </head>
   <body>
     <div id="preloader" class="preloader">
@@ -3079,7 +3080,7 @@
               document.getElementById("tttResult").textContent = `I Win! 💕`;
               confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
             } else if (tttBoard.every(cell => cell !== "")) {
-              document.getElementById("tttResult").textContent = `It's a Draw! 🤝`;
+              document.getElementById("tttResult").textContent = `It's a Draw! ��`;
             } else {
               document.getElementById("tttResult").textContent = "Your turn! 🎯";
               isXNext = true;
